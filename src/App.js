@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.css'
 import { Dropdown, DropdownMenu, Menu, Container, Icon, Grid } from 'semantic-ui-react'
-
+import Image from './im.jpg'
 
 function App () {
 
   return (
     <div className='App'>
-      <img class="ui mini circular image" src="" alt='logo'/>
+      <img class="ui mini circular image" src={Image} alt='logo'/>
 
       <Container>
         
